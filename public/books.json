@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+    "title": "Task Manager Pro",
+    "companyName": "NovaSoft",
+    "id": 1,
+    "description": "A powerful productivity app to manage tasks and schedules.",
+    "size": 42,
+    "reviews": 1280,
+    "ratingAvg": 4.5,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980",
+    "title": "PhotoFix Editor",
+    "companyName": "PixelWorks",
+    "id": 2,
+    "description": "Edit photos easily with filters, AI enhancement, and overlays.",
+    "size": 58,
+    "reviews": 2050,
+    "ratingAvg": 4.7,
+    "downloads": 8,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 610 },
+      { "name": "5 star", "count": 1235 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "title": "CodeMaster IDE",
+    "companyName": "DevStudio",
+    "id": 3,
+    "description": "A lightweight coding environment for beginners and professionals.",
+    "size": 95,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 3,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 295 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "title": "Finance Tracker",
+    "companyName": "BudgetPro",
+    "id": 4,
+    "description": "Track expenses, income, and savings with smart analytics.",
+    "size": 33,
+    "reviews": 1540,
+    "ratingAvg": 4.6,
+    "downloads": 7,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e",
+    "title": "FitLife Coach",
+    "companyName": "ActiveGen",
+    "id": 5,
+    "description": "Get personalized fitness plans and live workout tracking.",
+    "size": 70,
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": 15,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 2140 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
+    "title": "MusicFlow Player",
+    "companyName": "SoundWave",
+    "id": 6,
+    "description": "A modern music player with smart playlists and equalizer.",
+    "size": 52,
+    "reviews": 870,
+    "ratingAvg": 4.2,
+    "downloads": 2,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "title": "MapGo Navigator",
+    "companyName": "GeoTech",
+    "id": 7,
+    "description": "Offline maps and real-time route optimization.",
+    "size": 120,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": 6,
+    "ratings": [
+      { "name": "1 star", "count": 75 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 390 },
+      { "name": "5 star", "count": 345 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657",
+    "title": "NewsDaily",
+    "companyName": "InfoSphere",
+    "id": 8,
+    "description": "Get latest global news, alerts, and personalized feeds.",
+    "size": 45,
+    "reviews": 2600,
+    "ratingAvg": 4.6,
+    "downloads": 9,
+    "ratings": [
+      { "name": "1 star", "count": 85 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 1275 }
+    ]
+  }
+]

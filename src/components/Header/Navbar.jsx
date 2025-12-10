@@ -1,22 +1,22 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   const links = (
     <>
-      <NavLink>
+      <NavLink to="/">
         <li className="text-[#000000e6] font-medium">
           <a>Home</a>
         </li>
       </NavLink>
-      <NavLink>
+      <NavLink to="/apps">
         <li className="text-[#000000e6] font-medium">
           <a>Apps</a>
         </li>
       </NavLink>
-      <NavLink>
+      <NavLink to="/installation">
         <li className="text-[#000000e6] font-medium">
           <a>Installation</a>
         </li>
@@ -53,12 +53,14 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <div className="flex gap-1 justify-center items-center">
+          <div className="flex gap-1 justify-center items-center btn btn-ghost">
             <div>
               <img className="w-10 h-10" src={logo} alt="" />
             </div>
             <div>
-              <a className="text-[#632EE3] opacity-95 font-bold">HERO.IO</a>
+              <Link to="/">
+                <a className="text-[#632EE3] opacity-95 font-bold">HERO.IO</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -66,9 +68,11 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end rounded">
-          <a className="btn text-white font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
-            <FaGithub /> Contribute
-          </a>
+          <Link to="https://github.com/dashboard">
+            <a className="btn text-white font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+              <FaGithub /> Contribute
+            </a>
+          </Link>
         </div>
       </div>
     </div>
