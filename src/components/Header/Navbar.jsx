@@ -58,7 +58,7 @@ const Navbar = () => {
               <img className="w-10 h-10" src={logo} alt="" />
             </div>
             <div>
-              <a className="text-[#632EE3] opacity-95">HERO.IO</a>
+              <a className="text-[#632EE3] opacity-95 font-bold">HERO.IO</a>
             </div>
           </div>
         </div>
