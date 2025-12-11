@@ -21,7 +21,7 @@ const Apps = ({ data }) => {
       <div className="flex justify-center items-center mt-10">
         <Link
           to="/apps"
-          className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white max-w-36"
+          className="btn btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white max-w-36"
         >
           Show All
         </Link>

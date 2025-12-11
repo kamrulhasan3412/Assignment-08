@@ -6,18 +6,41 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   const links = (
     <>
-      <NavLink to="/">
-        <li className="text-[#000000e6] font-medium">
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          `font-medium ${
+            isActive ? "bg-[#632EE3] text-white rounded" : "text-[#000000e6]"
+          }`
+        }
+      >
+        <li>
           <a>Home</a>
         </li>
       </NavLink>
-      <NavLink to="/apps">
-        <li className="text-[#000000e6] font-medium">
+
+      <NavLink
+        to="/apps"
+        className={({ isActive }) =>
+          `font-medium ${
+            isActive ? "bg-[#632EE3] text-white rounded" : "text-[#000000e6]"
+          }`
+        }
+      >
+        <li>
           <a>Apps</a>
         </li>
       </NavLink>
-      <NavLink to="/installation">
-        <li className="text-[#000000e6] font-medium">
+
+      <NavLink
+        to="/installation"
+        className={({ isActive }) =>
+          `font-medium ${
+            isActive ? "bg-[#632EE3] text-white rounded" : "text-[#000000e6]"
+          }`
+        }
+      >
+        <li>
           <a>Installation</a>
         </li>
       </NavLink>
@@ -69,7 +92,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end rounded">
           <Link to="https://github.com/dashboard">
-            <a className="btn text-white font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+            <a className="btn btn-sm md:btn-md lg:btn-lg xl:btn-xl text-white font-semibold bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
               <FaGithub /> Contribute
             </a>
           </Link>

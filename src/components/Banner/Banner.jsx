@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="pt-20 bg-gray-50">
       <div className="w-11/12 mx-auto">
-        <h1 className="text-7xl font-semibold opacity-90 text-[#001931] text-center mb-4">
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-semibold opacity-90 text-[#001931] text-center mb-4">
           We Build
           <br /> <span className="text-[#632EE3] opacity-95">
             Productive
@@ -23,17 +23,25 @@ const Banner = () => {
         <div className="text-center my-10">
           <Link
             to="https://play.google.com/store/apps?hl=en&pli=1"
-            className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-4"
+            className="btn btn-sm md:btn-md lg:btn-lg xl:btn-xl mr-4"
           >
-            <img className="h-8 w-8 mr-2" src={playStore} alt="" />
+            <img
+              className="h-6 md:h-8 w-6 md:w-8 mr-1 md:mr-2"
+              src={playStore}
+              alt=""
+            />
             Google Play
           </Link>
 
           <Link
             to="https://www.apple.com/app-store/"
-            className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl"
+            className="btn btn-sm md:btn-md lg:btn-lg xl:btn-xl"
           >
-            <img className="h-8 w-8 mr-2" src={appStore} alt="" />
+            <img
+              className="h-6 md:h-8 w-6 md:w-8 mr-1 md:mr-2"
+              src={appStore}
+              alt=""
+            />
             App Store
           </Link>
         </div>

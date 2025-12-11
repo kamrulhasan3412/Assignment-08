@@ -4,7 +4,7 @@ const Reviews = () => {
   return (
     <div className="bg-linear-to-l from-[#9F62F2] to-[#632EE3]">
       <div className="w-11/12 mx-auto py-20">
-        <h1 className="text-5xl font-bold text-white text-center pb-10">
+        <h1 className="text-4xl md:text-5xl font-bold text-white text-center pb-10">
           Trusted by Millions, Built for You
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around items-center">
